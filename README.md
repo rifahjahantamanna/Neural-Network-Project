@@ -13,7 +13,14 @@ The goal of this project is to:
 - Evaluate clustering quality using standard metrics
 
 ---
+This project is divided into three tasks of increasing complexity to analyze how the model performs under different conditions.
 
+Easy Task:
+Implements a basic encoder–decoder model focused on learning simple representations using only reconstruction. This serves as a baseline to understand the model’s core behavior.
+Medium Task:
+Extends the basic model by introducing additional constraints on the latent space. This helps the model learn more structured and meaningful representations compared to the easy task.
+Hard Task:
+Incorporates more complex objectives and stronger constraints, making the learning process more challenging. This task tests the model’s ability to balance reconstruction accuracy with representation quality under higher complexity.
 ## 📂 Datasets Used
 
 ### 1. GTZAN Dataset
